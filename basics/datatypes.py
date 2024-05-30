@@ -77,6 +77,37 @@ print(firstname[-1].center(20, "-")) # Last Value
 print(firstname[1:2].center(20, "-")) # You can get a specific range
 
 # Methods return boolean data: 
-
 print(firstname.startswith("a"))
 print(firstname.endswith("x"))
+
+my_val = True # Has to be capital.
+x = bool(False) # Constructor function
+print(type(x))
+print(type(my_val))
+
+# Numberic Datatypes: 
+# -> int type:
+price = 100 
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+# -> float type: 
+
+discount = 3.28
+y = float(1.14)
+print(type(discount))
+
+# -> Complex Type:
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
+
+
+# Built in fucntion for numbers: 
+
+print(abs(discount))
+print(abs(discount * -1 ))
+print(round(discount))
+print(round(discount,1))
